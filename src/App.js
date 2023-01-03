@@ -1,4 +1,5 @@
 import React from 'react'
+import "./App.css"
 // import {Article, Brand, CTA, Feature, Navbar} from "./components" 
 // we can do this but we will import all these inside the container folder
 
