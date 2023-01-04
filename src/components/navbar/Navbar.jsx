@@ -1,10 +1,82 @@
-import React from 'react'
-import "./navbar.css"
+import React, { useState } from "react";
+import "./navbar.css";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import logo from "../../assets/logo.svg";
+
+// BEM - block element modifier
+
+const Menu = () => {
+  return (
+    <>
+      <p>
+        <a href="#home">Home</a>
+      </p>
+      <p>
+        <a href="#wgpt3">What GPT?</a>
+      </p>
+      <p>
+        <a href="#possiblities">Open AI</a>
+      </p>
+      <p>
+        <a href="#features">Case Studies</a>
+      </p>
+      <p>
+        <a href="#blog">Library</a>
+      </p>
+    </>
+  );
+};
 
 const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
-}
+  const [toggleMenu, setToggleMenu] = useState(false); // to toggle menu icon
 
-export default Navbar
+  return (
+    <div className="gpt3__navbar">
+      <div className="gpt3__navbar-links">
+        <div className="gpt3__navbar-links_logo">
+          <img src={logo} alt="logo" />
+        </div>
+        <div className="gpt3__navbar-links_container">
+          <Menu />
+        </div>
+      </div>  
+      <div className="gpt3__navbar-sign">
+        <p>Sign in</p>
+        <button type="submit">Sign up</button>
+      </div>
+      <div className="gpt3__navbar-menu">
+          {toggleMenu ? (
+            <RiCloseLine
+              color="#FFF"
+              size={27}
+              onClick={() => {
+                setToggleMenu(false);
+              }}
+            />
+          ) : (
+            <RiMenu3Line
+              color="#FFF"
+              size={27}
+              onClick={() => {
+                setToggleMenu(true);
+              }}
+            />
+          )}
+          {toggleMenu && ( //only render when toggleMenu is true
+            <div class="gpt3__navbar-menu_container scale-up-canter">
+              <div class="gpt3__navbar-menu_container-links scale-up-center">
+                <Menu />
+                <div className="gpt3__navbar-menu_container-links-sign">
+                  <p>Sign in</p>
+                  <button type="submit">Sign up</button>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      
+    </div>
+  );
+};
+
+export default Navbar;
