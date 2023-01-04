@@ -63,8 +63,8 @@ const Navbar = () => {
             />
           )}
           {toggleMenu && ( //only render when toggleMenu is true
-            <div class="gpt3__navbar-menu_container scale-up-canter">
-              <div class="gpt3__navbar-menu_container-links scale-up-center">
+            <div class="gpt3__navbar-menu_container swing-in-top-fwd">
+              <div class="gpt3__navbar-menu_container-links swing-in-top-fwd">
                 <Menu />
                 <div className="gpt3__navbar-menu_container-links-sign">
                   <p>Sign in</p>
