@@ -99,7 +99,6 @@
     flex: 1;
     margin: 1rem;
     min-width: 210px;
-    display: unset;
     flex-direction: column;
 }
 
