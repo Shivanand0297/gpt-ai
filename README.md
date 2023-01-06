@@ -162,7 +162,7 @@ For this project I took around `2 days` to complete it.
 
 [html-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 
-[CSS-shield]: https://img.shields.io/badge/css-%23121011.svg?style=for-the-badge&logo=css&logoColor=blue 
+[CSS-shield]: https://img.shields.io/badge/css3-%23121011.svg?style=for-the-badge&logo=css&logoColor=blue 
 
 [vscode-shield]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 
