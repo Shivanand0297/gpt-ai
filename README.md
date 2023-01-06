@@ -38,6 +38,10 @@
 
 Created a modern responsive website for GPT AI using react.
 
+### General look
+
+![mock-up](./images/Multi%20Device%20Website%20Mockup%20Generator.png)
+
 #### For large screens
 
 ![large-screen](./images/large-screens.png)
