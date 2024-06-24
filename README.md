@@ -13,7 +13,7 @@
 
   <p align="center">
     <br />
-    <a href="https://shivanand-gptai.netlify.app/">Live Link</a>
+    <a href="https://gpt-ai-teal.vercel.app/">Live Link</a>
   </p>
 </div>
 
@@ -178,6 +178,6 @@ For this project I took around `2 days` to complete it.
  
 <!-- source code -->
 
-[project-url]: https://shivanand-gptai.netlify.app/
+[project-url]: https://gpt-ai-teal.vercel.app/
 
 [source-code]: https://github.com/Shivanand0297/gpt-ai
